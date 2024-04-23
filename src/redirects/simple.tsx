@@ -46,7 +46,6 @@ export const getDestination: GetDestination<TemplateProps> = ({ document }) => {
 /**
  * Defines a list of redirect source objects, which will redirect to the URL created by getDestination.
  */
-
 export const getSources: GetSources<TemplateProps> = ({ document }) => {
   return [
      {
